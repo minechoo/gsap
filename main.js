@@ -11,8 +11,10 @@ wrap.addEventListener('click', () => {
 
 //bg, transform-origin, duration, relativePosition
 wrap.addEventListener('click', () => {
-	//gsap.to('.box', { rotation: 360, backgroundColor: '#ffff00', duration: 2, transformOrigin: '0%  0%' });
-	gsap.to('.box', { x: 500 });
-	gsap.to('.box2', { x: 500, delay: 0 });
-	gsap.to('.box3', { x: 500, repeat: 5, yoyo: true, ease: 'bounce-out' });
+	gsap.to('div', {
+		duration: 1,
+		x: 700,
+		opacity: 1,
+		stagger: 0.2,
+	});
 });
