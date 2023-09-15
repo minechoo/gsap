@@ -24,12 +24,21 @@ section {
 	&#sec2 {
 		background: lightblue;
 
-		.box1,
+		.box1 {
+			width: 200px;
+			height: 200px;
+			background: blue;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+		}
 		.box2 {
 			width: 200px;
 			height: 200px;
-			background: #333;
-			margin: 50px;
+			background: red;
+			position: absolute;
+			top: 200px;
+			left: 0px;
 		}
 	}
 	&#sec3 {
