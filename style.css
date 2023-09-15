@@ -25,14 +25,13 @@ section#sec1 {
 }
 section#sec2 {
   background: lightblue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-section#sec2 .box {
+section#sec2 .box1,
+section#sec2 .box2 {
   width: 200px;
   height: 200px;
   background: #333;
+  margin: 50px;
 }
 section#sec3 {
   background: lightgreen;

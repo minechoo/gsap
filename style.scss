@@ -23,14 +23,13 @@ section {
 	}
 	&#sec2 {
 		background: lightblue;
-		display: flex;
-		justify-content: center;
-		align-items: center;
 
-		.box {
+		.box1,
+		.box2 {
 			width: 200px;
 			height: 200px;
 			background: #333;
+			margin: 50px;
 		}
 	}
 	&#sec3 {

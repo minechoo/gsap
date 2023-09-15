@@ -1,16 +1,25 @@
-let tl = gsap.timeline({
+gsap.to('.box1', {
+	x: 2000,
+
 	scrollTrigger: {
-		trigger: '#sec2',
+		trigger: '.box1',
 		start: 'top 50%',
 		end: 'top 0%',
-		markers: true,
-		//toggleActions: 'restart pause reverse reset',
 		scrub: 1,
+		markers: true,
+		id: 'box1',
 	},
 });
 
-tl.to('.box', {
-	scale: 3,
-	opacity: 0,
-	rotation: 360,
+gsap.to('.box2', {
+	x: 4000,
+
+	scrollTrigger: {
+		trigger: '.box1',
+		start: 'top 50%',
+		end: 'top 0%',
+		scrub: 1,
+		markers: true,
+		id: 'box2',
+	},
 });
